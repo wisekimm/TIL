@@ -1,5 +1,5 @@
-# TIL
+# TIL (Start from 2022.09.07)
 
-# Today I Learn
+# 2022.09.07
 
-Today I Learn
+why not commit?? long time no see..
