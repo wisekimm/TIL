@@ -13,12 +13,12 @@ transofrms.Normalize((R채널 평균, G채널 평균, B채널 평균), (R채널 
 로 입력하여 적용할 수 있습니다.
 
 ex)
-'''
+```python
 transform = transforms.Compose([
     transforms.ToTensor(),
     transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))
 ])
-'''
+```
 
 위의 예시와 같이 transforms.ToTensor() 후 (0.5, 0.5, 0.5), (0.5, 0.5, 0.5)로 정규화를 적용하게 되면
 
