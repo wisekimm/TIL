@@ -1,10 +1,12 @@
 # TIL (Start from 2022.09.07)
 
-# 2022.09.07
+### 2022.09.07
 
 why not commit?? long time no see..
+----------------
 
-# 2022.09.14
+### 2022.09.14
+ 2022.09.14
 transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)) 적용
 transofrms.Normalize()는 각 채널별 평균(mean)을 뺀 뒤 표준편차(std)로 나누어 정규화를 진행합니다.
 
@@ -29,3 +31,12 @@ RGB 각 채널의 픽셀 값에서 0.5를 뺀 뒤 0.5로 나누어 정규화를 
 최소값(=-1)은 (0 - 0.5) / 0.5 = -1, 최대값(=1) 은 (1 - 0.5) / 0.5 = 1 로 조정됩니다.
 
 결국, 위의 예시를 적용한 결과는 -1 ~ 1 범위로 변환됩니다.
+
+https://teddylee777.github.io/pytorch/torchvision-transform
+
+>Conv2d 와 관련한 참고할만한 블로그
++테스트
+https://blog.joonas.io/196?category=1016329
+
+
+
