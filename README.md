@@ -42,7 +42,7 @@ https://blog.joonas.io/196?category=1016329
 ### 2022.09.15
 
 Pooling : convolution으로 뽑아낸 값을 전부 가져가는 것이 아니라, 대표적인 특징만 남기는 작업
-![fdfd](https://user-images.githubusercontent.com/71629571/190331560-25a33d7e-5660-4253-8b7b-8ada64582817.gif)
+<image width = "70%" src = "https://user-images.githubusercontent.com/71629571/190331560-25a33d7e-5660-4253-8b7b-8ada64582817.gif"/>
 
 
 
