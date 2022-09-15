@@ -52,7 +52,7 @@ Pooling : convolution으로 뽑아낸 값을 전부 가져가는 것이 아니�
 출처:&nbsp;https://victorzhou.com/blog/intro-to-cnns-part-1/   
 
 보통 이미지의 in_channels = 3 (RGB) if out_channels = 7 이라면 아래와 같다.   
-<image width = 50% src = (https://user-images.githubusercontent.com/71629571/190348669-66f72b66-47c8-4589-b681-1967c0ee6faa.png)>
+<image width = "50%" src = (https://user-images.githubusercontent.com/71629571/190348669-66f72b66-47c8-4589-b681-1967c0ee6faa.png)>
 
 
 
