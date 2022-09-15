@@ -49,12 +49,16 @@ ex) 6 x 6 image, padding = 1 이라면 8 x 8 image가 된다.
 **Pooling** : convolution으로 뽑아낸 값을 전부 가져가는 것이 아니라, 대표적인 특징만 남기는 작업
 
 <image width = "40%" src = "https://user-images.githubusercontent.com/71629571/190331560-25a33d7e-5660-4253-8b7b-8ada64582817.gif"/>
-출처:&nbsp;https://victorzhou.com/blog/intro-to-cnns-part-1/        
+출처:&nbsp;https://victorzhou.com/blog/intro-to-cnns-part-1/          
+
+***Stride*** : 기본적으로 한칸씩 이동하면서 연산을 한다. 이때 "*stride =1*" 입력 데이터가 너무 큰경우 연산량을 줄이기 위한 목적.   
+But, 보통 stirde = 1 로 하고 나중에 Pooling을 통해서 이미지 크기를 줄이는 방법을 주로 사용한다. (데이터의 특징을 잃어버리는것을 방지하기 위해서.)    
 
 보통 이미지의 in_channels = 3 (RGB) if out_channels = 7 이라면 아래와 같다.      
 <image width = "80%" src = https://user-images.githubusercontent.com/71629571/190348669-66f72b66-47c8-4589-b681-1967c0ee6faa.png>    
 
-***Stride*** : 기본적으로 한칸씩 이동하면서 연산을 한다. 이때 *stride =1* 입력 데이터가 너무 큰경우 연산량을 줄이기 위한 목적. 
+
+
 
 
 
