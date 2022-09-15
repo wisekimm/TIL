@@ -49,7 +49,11 @@ ex) 6 x 6 image, padding = 1 이라면 8 x 8 image가 된다.
 Pooling : convolution으로 뽑아낸 값을 전부 가져가는 것이 아니라, 대표적인 특징만 남기는 작업
 
 <image width = "30%" src = "https://user-images.githubusercontent.com/71629571/190331560-25a33d7e-5660-4253-8b7b-8ada64582817.gif"/>
-출처:&nbsp;https://victorzhou.com/blog/intro-to-cnns-part-1/
+출처:&nbsp;https://victorzhou.com/blog/intro-to-cnns-part-1/   
+
+보통 이미지의 in_channels = 3 (RGB) if out_channels = 7 이라면 아래와 같다.   
+<image width = 50% src = (https://user-images.githubusercontent.com/71629571/190348669-66f72b66-47c8-4589-b681-1967c0ee6faa.png)>
+
 
 
 
