@@ -41,9 +41,9 @@ https://blog.joonas.io/196?category=1016329
 
 ### 2022.09.15
 
-Padding : Convolution Filter를 통과한 이미지가 작아지지 않고 size를 유지하는 방법
-주로 이미지 데이터에서 모서리 값을 살리기 위해 이용함.
-ex) 6 x 6 image, padding = 1 이라면 8 x 8 image가 된다.
+Padding : Convolution Filter를 통과한 이미지가 작아지지 않고 size를 유지하는 방법   
+주로 이미지 데이터에서 모서리 값을 살리기 위해 이용함.   
+ex) 6 x 6 image, padding = 1 이라면 8 x 8 image가 된다.   
 
 
 Pooling : convolution으로 뽑아낸 값을 전부 가져가는 것이 아니라, 대표적인 특징만 남기는 작업
