@@ -23,8 +23,8 @@ transform = transforms.Compose([
 ])
 ```
 
-위의 예시와 같이 transforms.ToTensor() 후 (0.5, 0.5, 0.5), (0.5, 0.5, 0.5)로 정규화를 적용하게 되면 RGB 각 채널의 픽셀 값에서 0.5를 뺀 뒤 0.5로 나누어 정규화를 진행합니다.<br/>
-즉, transforms.ToTensor()가 이미지 픽셀 값의 범위를 0 ~ 1 로 조정했으므로, 최소값(=-1)은 (0 - 0.5) / 0.5 = -1, 최대값(=1) 은 (1 - 0.5) / 0.5 = 1 로 조정됩니다.<br/>
+위의 예시와 같이 transforms.ToTensor() 후 (0.5, 0.5, 0.5), (0.5, 0.5, 0.5)로 정규화를 적용하게 되면 RGB 각 채널의 픽셀 값에서 0.5를 뺀 뒤 0.5로 나누어 정규화를 진행합니다.<br/><br/>
+즉, transforms.ToTensor()가 이미지 픽셀 값의 범위를 0 ~ 1 로 조정했으므로, 최소값(=-1)은 (0 - 0.5) / 0.5 = -1, 최대값(=1) 은 (1 - 0.5) / 0.5 = 1 로 조정됩니다.<br/><br/>
 결국, 위의 예시를 적용한 결과는 -1 ~ 1 범위로 변환됩니다.
 
 https://teddylee777.github.io/pytorch/torchvision-transform
@@ -52,6 +52,13 @@ But, 보통 stirde = 1 로 하고 나중에 Pooling을 통해서 이미지 크�
 보통 이미지의 in_channels = 3 (RGB) if out_channels = 7 이라면 아래와 같다.      
 <image width = "80%" src = https://user-images.githubusercontent.com/71629571/190348669-66f72b66-47c8-4589-b681-1967c0ee6faa.png>    
 
+### 2022.09.23
+
+**BatchNorm2d** : https://gaussian37.github.io/dl-concept-batchnorm/
+
+
+### 2022.09.29
+**torch.cuda.available() = False 문제 해결** : pytorch를 cpu버전이 아닌 gpu버전으로 설치, 아래 참조. <br/><br/>https://pytorch.org/get-started/previous-versions/
 
 
 
